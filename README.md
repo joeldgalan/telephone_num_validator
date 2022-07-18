@@ -1,7 +1,6 @@
 # telephone_num_validator
 This is a telephone number validator.
-Using javascript and regexes, it will check if the entered phone number matches one of the following formats.
-:
+Using javascript and regexes, it will check if the entered phone number matches one of the following formats:
 - 555-555-5555
 - (555)555-5555
 - (555) 555-5555

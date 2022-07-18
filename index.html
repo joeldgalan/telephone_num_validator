@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/1ba418bb73.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="favicon-32x32.png">
 </head>
 
 <body>
     <div id="container">
         <h1>Enter your phone number.</h1>
-        <form>
+        <form onsubmit="return runCheck()">
             <input type="text" id="phone-number">
-            <button id="submit-btn" onclick="runCheck()">Submit</button>
+            <input type="submit" value="Submit" id="submit-btn">
         </form>
-        <div id="result"></div>
+        <div id="output" class="invisible"><h2 id="result"></h2></p></div>
     </div> 
 
     <footer>
