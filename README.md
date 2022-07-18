@@ -7,4 +7,4 @@ Using javascript and regexes, it will check if the entered phone number matches 
 - 555 555 5555
 - 5555555555
 - 1 555 555 5555
-- (if country code is included it must be 1)
+- if country code is included it must be 1 (no +)
